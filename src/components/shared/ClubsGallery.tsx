@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { LIME } from '../../data/constants'
 import { clubAssets } from '../../data/content'
 
@@ -72,12 +73,12 @@ export function ClubsGallery() {
             
             <h3 className="relative z-10 text-3xl md:text-5xl font-black mb-6">Need a visual pulse for your venue?</h3>
             <p className="relative z-10 text-white/40 mb-10 max-w-lg mx-auto">We specialise in creating motion assets that dominate the screen and still posters that command the wall.</p>
-            <a 
-              href="#contact" 
+            <Link 
+              to="/contact" 
               className="relative z-10 inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-sm bg-white text-black hover:scale-105 transition-all"
             >
               Start a Project
-            </a>
+            </Link>
         </div>
 
       </div>
